@@ -2,7 +2,7 @@
   background: #fff;
   width: 100vw;
   min-height: 66vh;
-  /* max-height: 72vh; */
+  max-height: 66vh;
   margin: 0;
   padding: 2rem;
   padding-bottom: 1rem;
@@ -40,7 +40,9 @@
   top: -30px;
 }
 .modal_body .modal_text {
-  flex-grow: 1;
+  /* flex: 1 1 auto; */
+  max-height: 60%;
+  overflow-y: scroll;
 }
 .modal_body .modal_sender {
   display: flex;

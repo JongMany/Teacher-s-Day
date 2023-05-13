@@ -20,7 +20,7 @@ export default class Modal {
       comment?.badgeNum * 1 + 1 || undefined
     }.png`} />
     <div class="modal_body">
-      <div class="modal_text">${comment?.text || undefined}</div>
+      <p class="modal_text">${comment?.text || undefined}</p>
       <p class="modal_sender">
         <span>${comment?.sender || undefined}</span>
         <span> 올림</span>
