@@ -1,0 +1,38 @@
+.image-container {
+  position: relative;
+  min-width: 50vh;
+  max-width: 50vh;
+  /* min-height: 60vh; */
+  /* max-height: 60vh; */
+  /* background-image: url('../images/teacher.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; */
+  /* box-shadow: 0 4px 4px -4px black; */
+}
+
+.image-container img {
+  width: 100%;
+  filter: drop-shadow(5px 5px 5px #666);
+}
+
+.submit-btn {
+  width: 80vw;
+  border: none;
+  background-color: #ff6666;
+  padding: 15px 0;
+  color: white;
+  border-radius: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.count {
+  color: red;
+  font-weight: 700;
+}
